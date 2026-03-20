@@ -13,147 +13,32 @@
 <body>
 
   <!-- OVERLAY EXECUTIVE DEVELOPMENT -->
-  <div id="dev-overlay" style="
-    position: fixed; inset: 0; z-index: 10000;
-    display: flex; align-items: center; justify-content: center;
-    background: rgba(11, 27, 59, 0.92);
-    backdrop-filter: blur(8px);
-    opacity: 1;
-    transition: opacity 0.6s ease, transform 0.7s cubic-bezier(0.86, 0, 0.07, 1);
-  ">
-    <div style="
-      width: min(520px, 90vw);
-      background: #0B1B3B;
-      border: 1px solid rgba(201,162,95,0.25);
-      padding: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 4vw, 3rem);
-      text-align: center;
-      position: relative;
-      box-shadow: 0 24px 80px rgba(0,0,0,0.6);
-      animation: overlayPop 0.7s cubic-bezier(.22,1,.36,1) both;
-    ">
-      <!-- Logo -->
-      <div style="margin-bottom: 1.8rem;">
-        <div style="display:inline-block;background:#FFFFFF;padding:12px 20px;border-radius:4px;">
-          <img src="../images/logo-top-search.png" alt="Top Search Peru" style="height: 50px;display:block;">
-        </div>
+  <div id="dev-overlay" style="position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;background:rgba(11,27,59,0.92);backdrop-filter:blur(8px);opacity:1;transition:opacity 0.6s ease,transform 0.7s cubic-bezier(0.86,0,0.07,1);">
+    <div style="width:min(520px,90vw);background:#0B1B3B;border:1px solid rgba(201,162,95,0.25);padding:clamp(2rem,5vw,3.5rem) clamp(1.5rem,4vw,3rem);text-align:center;position:relative;box-shadow:0 24px 80px rgba(0,0,0,0.6);animation:overlayPop 0.7s cubic-bezier(.22,1,.36,1) both;">
+      <div style="margin-bottom:1.8rem;"><div style="display:inline-block;background:#FFFFFF;padding:12px 20px;border-radius:4px;"><img src="../images/logo-top-search.png" alt="Top Search Peru" style="height:50px;display:block;"></div></div>
+      <div style="font-family:'Source Sans 3',sans-serif;font-size:0.72rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:#C9A25F;margin-bottom:1.2rem;">NEW SERVICES</div>
+      <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.8rem,4.5vw,2.6rem);font-weight:600;color:#F5F7FA;line-height:1.15;margin:0 0 0.3rem 0;">Experience is<br>not taught,</h2>
+      <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.8rem,4.5vw,2.6rem);font-weight:600;font-style:italic;color:#C9A25F;line-height:1.15;margin:0 0 1.5rem 0;">it is shared.</h2>
+      <div style="width:80%;height:2px;background:#C9A25F;margin:0 auto 1.5rem;"></div>
+      <p style="font-family:'Source Sans 3',sans-serif;font-size:clamp(0.9rem,2.2vw,1.05rem);color:#A9B6C8;line-height:1.6;margin-bottom:2rem;max-width:400px;margin-left:auto;margin-right:auto;">Three high-level programs to accelerate executive leadership and reduce the risk of critical transitions.</p>
+      <div style="display:flex;flex-direction:column;gap:0.7rem;">
+        <div style="border:1px solid rgba(201,162,95,0.35);padding:0.9rem 1.2rem;"><div style="font-family:'Source Sans 3',sans-serif;font-size:0.7rem;font-style:italic;color:#C9A25F;margin-bottom:0.15rem;">For Organizations</div><div style="font-family:'Source Sans 3',sans-serif;font-size:0.6rem;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#A9B6C8;margin-bottom:0.3rem;">PROGRAM 01</div><div style="font-family:'Playfair Display',Georgia,serif;font-size:1.25rem;font-weight:600;color:#F5F7FA;">Executive Mentoring&copy;</div></div>
+        <div style="border:1px solid rgba(201,162,95,0.35);padding:0.9rem 1.2rem;"><div style="font-family:'Source Sans 3',sans-serif;font-size:0.7rem;font-style:italic;color:#C9A25F;margin-bottom:0.15rem;">For Organizations</div><div style="font-family:'Source Sans 3',sans-serif;font-size:0.6rem;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#A9B6C8;margin-bottom:0.3rem;">PROGRAM 02</div><div style="font-family:'Playfair Display',Georgia,serif;font-size:1.25rem;font-weight:600;color:#F5F7FA;">Soft Landing&copy;</div></div>
+        <div style="border:1px solid rgba(201,162,95,0.35);padding:0.9rem 1.2rem;"><div style="font-family:'Source Sans 3',sans-serif;font-size:0.7rem;font-style:italic;color:#C9A25F;margin-bottom:0.15rem;">For Executives</div><div style="font-family:'Source Sans 3',sans-serif;font-size:0.6rem;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#A9B6C8;margin-bottom:0.3rem;">PROGRAM 03</div><div style="font-family:'Playfair Display',Georgia,serif;font-size:1.25rem;font-weight:600;color:#F5F7FA;">Self Landing&copy;</div></div>
       </div>
-      <!-- Label -->
-      <div style="
-        font-family: 'Source Sans 3', sans-serif;
-        font-size: 0.72rem;
-        font-weight: 600;
-        letter-spacing: 0.22em;
-        text-transform: uppercase;
-        color: #C9A25F;
-        margin-bottom: 1.2rem;
-      ">NEW SERVICES</div>
-      <!-- Tagline -->
-      <h2 style="
-        font-family: 'Playfair Display', Georgia, serif;
-        font-size: clamp(1.8rem, 4.5vw, 2.6rem);
-        font-weight: 600;
-        color: #F5F7FA;
-        line-height: 1.15;
-        margin: 0 0 0.3rem 0;
-      ">Experience is<br>not taught,</h2>
-      <h2 style="
-        font-family: 'Playfair Display', Georgia, serif;
-        font-size: clamp(1.8rem, 4.5vw, 2.6rem);
-        font-weight: 600;
-        font-style: italic;
-        color: #C9A25F;
-        line-height: 1.15;
-        margin: 0 0 1.5rem 0;
-      ">it is shared.</h2>
-      <!-- Gold line -->
-      <div style="width: 80%; height: 2px; background: #C9A25F; margin: 0 auto 1.5rem;"></div>
-      <!-- Subtitle -->
-      <p style="
-        font-family: 'Source Sans 3', sans-serif;
-        font-size: clamp(0.9rem, 2.2vw, 1.05rem);
-        color: #A9B6C8;
-        line-height: 1.6;
-        margin-bottom: 2rem;
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-      ">Three high-level programs to accelerate executive leadership and reduce the risk of critical transitions.</p>
-      <!-- Program cards -->
-      <div style="display: flex; flex-direction: column; gap: 0.7rem; margin-bottom: 2rem;">
-        <div style="border: 1px solid rgba(201,162,95,0.35); padding: 0.9rem 1.2rem;">
-          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.7rem; font-style: italic; color: #C9A25F; margin-bottom: 0.15rem;">For Organizations</div>
-          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A9B6C8; margin-bottom: 0.3rem;">PROGRAM 01</div>
-          <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #F5F7FA;">Executive Mentoring&copy;</div>
-        </div>
-        <div style="border: 1px solid rgba(201,162,95,0.35); padding: 0.9rem 1.2rem;">
-          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.7rem; font-style: italic; color: #C9A25F; margin-bottom: 0.15rem;">For Organizations</div>
-          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A9B6C8; margin-bottom: 0.3rem;">PROGRAM 02</div>
-          <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #F5F7FA;">Soft Landing&copy;</div>
-        </div>
-        <div style="border: 1px solid rgba(201,162,95,0.35); padding: 0.9rem 1.2rem;">
-          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.7rem; font-style: italic; color: #C9A25F; margin-bottom: 0.15rem;">For Executives</div>
-          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A9B6C8; margin-bottom: 0.3rem;">PROGRAM 03</div>
-          <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #F5F7FA;">Self Landing&copy;</div>
-        </div>
-      </div>
-      <!-- Buttons -->
-      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <a href="https://www.perumentors.com/en/" target="_blank" onclick="var o=document.getElementById('dev-overlay');if(o){o.style.display='none';}" style="
-          display: inline-flex; align-items: center; gap: 0.5rem;
-          padding: 0.75rem 1.8rem;
-          border: 1px solid #C9A25F;
-          color: #C9A25F;
-          font-family: 'Source Sans 3', sans-serif;
-          font-size: 0.82rem;
-          font-weight: 600;
-          letter-spacing: 0.06em;
-          text-transform: uppercase;
-          text-decoration: none;
-          transition: all 0.3s;
-        " onmouseover="this.style.background='#C9A25F';this.style.color='#0B1B3B'" onmouseout="this.style.background='transparent';this.style.color='#C9A25F'">Learn more &rarr;</a>
-        <a href="javascript:void(0)" onclick="var o=document.getElementById('dev-overlay');if(o){o.style.opacity='0';o.style.transform='translateY(-100%)';setTimeout(function(){o.style.display='none'},700);}return false;" style="
-          display: inline-flex; align-items: center;
-          padding: 0.75rem 1.5rem;
-          border: 1px solid rgba(169,182,200,0.25);
-          background: transparent;
-          color: #A9B6C8;
-          font-family: 'Source Sans 3', sans-serif;
-          font-size: 0.78rem;
-          font-weight: 500;
-          letter-spacing: 0.04em;
-          cursor: pointer;
-          text-decoration: none;
-          transition: all 0.3s;
-        " onmouseover="this.style.borderColor='rgba(169,182,200,0.5)';this.style.color='#F5F7FA'" onmouseout="this.style.borderColor='rgba(169,182,200,0.25)';this.style.color='#A9B6C8'">Skip</a>
-      </div>
-      <!-- Progress bar -->
-      <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: rgba(201,162,95,0.1);">
-        <div id="overlay-progress" style="height: 100%; background: #C9A25F; width: 0%; transition: width 0.1s linear;"></div>
-      </div>
+      <div style="position:absolute;bottom:0;left:0;width:100%;height:3px;background:rgba(201,162,95,0.1);"><div id="overlay-progress" style="height:100%;background:#C9A25F;width:0%;"></div></div>
     </div>
   </div>
-  <style>
-    @keyframes overlayPop {
-      from { opacity: 0; transform: scale(0.92) translateY(20px); }
-      to { opacity: 1; transform: scale(1) translateY(0); }
-    }
-  </style>
+  <style>@keyframes overlayPop{from{opacity:0;transform:scale(0.92) translateY(20px)}to{opacity:1;transform:scale(1) translateY(0)}}</style>
   <script>
-    (function() {
-      var duration = 12000;
-      var start = Date.now();
-      var bar = document.getElementById('overlay-progress');
-      var timer = setInterval(function() {
-        var elapsed = Date.now() - start;
-        var pct = Math.min((elapsed / duration) * 100, 100);
-        if (bar) bar.style.width = pct + '%';
-        if (elapsed >= duration) {
-          clearInterval(timer);
-          var ov = document.getElementById('dev-overlay');
-          if (ov) { ov.style.opacity = '0'; ov.style.transform = 'translateY(-100%)'; setTimeout(function(){ ov.style.display = 'none'; }, 700); }
-        }
-      }, 50);
-    })();
+  (function(){
+    var d=8000,s=Date.now(),b=document.getElementById("overlay-progress");
+    var t=setInterval(function(){
+      var e=Date.now()-s,p=Math.min((e/d)*100,100);
+      if(b)b.style.width=p+"%";
+      if(e>=d){clearInterval(t);var o=document.getElementById("dev-overlay");if(o){o.style.opacity="0";o.style.transform="translateY(-100%)";setTimeout(function(){o.style.display="none"},700);}}
+    },50);
+  })();
   </script>
 
   <!-- HEADER -->
@@ -173,7 +58,7 @@
           <div class="dropdown-menu">
             <a href="executive-search.html">Executive Search</a>
             <a href="board-search.html">Board Search</a>
-            <a href="https://www.perumentors.com/en/" target="_blank">Executive Development ↗</a>
+            <a href="https://www.perumentors.com/en/" target="_blank"><b>Executive Development</b> &mdash; NEW ↗</a>
           </div>
         </li>
         <li><a href="contact.html">Contact</a></li>
