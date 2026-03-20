@@ -12,6 +12,152 @@
 </head>
 <body>
 
+  <!-- OVERLAY DESARROLLO EJECUTIVO -->
+  <div id="dev-overlay" style="
+    position: fixed; inset: 0; z-index: 10000;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(11, 27, 59, 0.92);
+    backdrop-filter: blur(8px);
+    opacity: 1;
+    transition: opacity 0.6s ease, transform 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+  ">
+    <div style="
+      width: min(520px, 90vw);
+      background: #0B1B3B;
+      border: 1px solid rgba(201,162,95,0.25);
+      padding: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 4vw, 3rem);
+      text-align: center;
+      position: relative;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+      animation: overlayPop 0.7s cubic-bezier(.22,1,.36,1) both;
+    ">
+      <!-- Logo -->
+      <div style="margin-bottom: 1.8rem;">
+        <img src="images/logo-top-search.png" alt="Top Search Perú" style="height: 50px; margin-bottom: 0.8rem;">
+      </div>
+      <!-- Label -->
+      <div style="
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: #C9A25F;
+        margin-bottom: 1.2rem;
+      ">NUEVOS SERVICIOS</div>
+      <!-- Tagline -->
+      <h2 style="
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+        font-weight: 600;
+        color: #F5F7FA;
+        line-height: 1.15;
+        margin: 0 0 0.3rem 0;
+      ">La experiencia<br>no se ense&ntilde;a,</h2>
+      <h2 style="
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+        font-weight: 600;
+        font-style: italic;
+        color: #C9A25F;
+        line-height: 1.15;
+        margin: 0 0 1.5rem 0;
+      ">se comparte.</h2>
+      <!-- Gold line -->
+      <div style="width: 80%; height: 2px; background: #C9A25F; margin: 0 auto 1.5rem;"></div>
+      <!-- Subtitle -->
+      <p style="
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: clamp(0.9rem, 2.2vw, 1.05rem);
+        color: #A9B6C8;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      ">Tres programas de alto nivel para acelerar el liderazgo ejecutivo y reducir el riesgo de las transiciones cr&iacute;ticas.</p>
+      <!-- Program cards -->
+      <div style="display: flex; flex-direction: column; gap: 0.7rem; margin-bottom: 2rem;">
+        <div style="border: 1px solid rgba(201,162,95,0.35); padding: 0.9rem 1.2rem;">
+          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.7rem; font-style: italic; color: #C9A25F; margin-bottom: 0.15rem;">Para Empresas</div>
+          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A9B6C8; margin-bottom: 0.3rem;">PROGRAMA 01</div>
+          <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #F5F7FA;">Executive Mentoring&copy;</div>
+        </div>
+        <div style="border: 1px solid rgba(201,162,95,0.35); padding: 0.9rem 1.2rem;">
+          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.7rem; font-style: italic; color: #C9A25F; margin-bottom: 0.15rem;">Para Empresas</div>
+          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A9B6C8; margin-bottom: 0.3rem;">PROGRAMA 02</div>
+          <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #F5F7FA;">Soft Landing&copy;</div>
+        </div>
+        <div style="border: 1px solid rgba(201,162,95,0.35); padding: 0.9rem 1.2rem;">
+          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.7rem; font-style: italic; color: #C9A25F; margin-bottom: 0.15rem;">Para Ejecutivos</div>
+          <div style="font-family: 'Source Sans 3', sans-serif; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #A9B6C8; margin-bottom: 0.3rem;">PROGRAMA 03</div>
+          <div style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #F5F7FA;">Self Landing&copy;</div>
+        </div>
+      </div>
+      <!-- Buttons -->
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://www.perumentors.com" target="_blank" style="
+          display: inline-flex; align-items: center; gap: 0.5rem;
+          padding: 0.75rem 1.8rem;
+          border: 1px solid #C9A25F;
+          color: #C9A25F;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.82rem;
+          font-weight: 600;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: all 0.3s;
+        " onmouseover="this.style.background='#C9A25F';this.style.color='#0B1B3B'" onmouseout="this.style.background='transparent';this.style.color='#C9A25F'">Conocer m&aacute;s &rarr;</a>
+        <button onclick="closeOverlay()" style="
+          padding: 0.75rem 1.5rem;
+          border: 1px solid rgba(169,182,200,0.25);
+          background: transparent;
+          color: #A9B6C8;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.78rem;
+          font-weight: 500;
+          letter-spacing: 0.04em;
+          cursor: pointer;
+          transition: all 0.3s;
+        " onmouseover="this.style.borderColor='rgba(169,182,200,0.5)';this.style.color='#F5F7FA'" onmouseout="this.style.borderColor='rgba(169,182,200,0.25)';this.style.color='#A9B6C8'">Saltar</button>
+      </div>
+      <!-- Progress bar -->
+      <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: rgba(201,162,95,0.1);">
+        <div id="overlay-progress" style="height: 100%; background: #C9A25F; width: 0%; transition: width 0.1s linear;"></div>
+      </div>
+    </div>
+  </div>
+  <style>
+    @keyframes overlayPop {
+      from { opacity: 0; transform: scale(0.92) translateY(20px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+  </style>
+  <script>
+    (function() {
+      var duration = 5000;
+      var start = Date.now();
+      var bar = document.getElementById('overlay-progress');
+      var timer = setInterval(function() {
+        var elapsed = Date.now() - start;
+        var pct = Math.min((elapsed / duration) * 100, 100);
+        if (bar) bar.style.width = pct + '%';
+        if (elapsed >= duration) { clearInterval(timer); closeOverlay(); }
+      }, 50);
+      window._overlayTimer = timer;
+    })();
+    function closeOverlay() {
+      clearInterval(window._overlayTimer);
+      var ov = document.getElementById('dev-overlay');
+      if (ov) {
+        ov.style.opacity = '0';
+        ov.style.transform = 'translateY(-100%)';
+        setTimeout(function() { ov.style.display = 'none'; }, 700);
+      }
+    }
+  </script>
+
   <!-- HEADER -->
   <header class="site-header">
     <div class="header-inner">
@@ -30,6 +176,7 @@
           <div class="dropdown-menu">
             <a href="busqueda-ejecutivos.html">Búsqueda de Ejecutivos</a>
             <a href="busqueda-directorios.html">Búsqueda de Directorios</a>
+            <a href="https://www.perumentors.com" target="_blank">Desarrollo Ejecutivo ↗</a>
           </div>
         </li>
         <li><a href="contacto.html">Contacto</a></li>
@@ -66,6 +213,11 @@
         <h3>Búsqueda de Directorios</h3>
         <p>La toma de conciencia de la necesidad de mejorar en cuanto a gobernanza ha contribuido a desarrollar esta nueva área de consultoría de negocios.</p>
         <a href="busqueda-directorios.html" class="learn-more">Conocer más &rarr;</a>
+      </div>
+      <div class="service-card">
+        <h3>Desarrollo Ejecutivo</h3>
+        <p>Programas de mentoring ejecutivo diseñados para acelerar la integración, el desempeño y el crecimiento de líderes dentro de las organizaciones.</p>
+        <a href="https://www.perumentors.com" target="_blank" class="learn-more">Conocer más &rarr;</a>
       </div>
       
     </div>
