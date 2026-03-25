@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- PAGES ES -->
+  <url>
+    <loc>https://topsearch.pe/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/index.html"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/nosotros.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/nosotros.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/about.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/busqueda-ejecutivos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/busqueda-ejecutivos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/executive-search.html"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/busqueda-directorios.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/busqueda-directorios.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/board-search.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/contacto.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/contact.html"/>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- PAGES EN -->
+  <url>
+    <loc>https://topsearch.pe/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/index.html"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/executive-search.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/board-search.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/contact.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- INSIGHTS CATEGORIES ES -->
+  <url>
+    <loc>https://topsearch.pe/insights/executive-search.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/insights/mercado-laboral.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/insights/gobierno-corporativo.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/insights/tecnologia-negocios.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- INSIGHTS CATEGORIES EN -->
+  <url>
+    <loc>https://topsearch.pe/en/insights/executive-search.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/insights/executive-job-market.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/insights/corporate-governance.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/insights/technology-business.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ARTICLES ES -->
+  <url>
+    <loc>https://topsearch.pe/insights/retencion-ejecutiva.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/insights/retencion-ejecutiva.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/insights/executive-retention.html"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/insights/por-que-renuncian-ejecutivos-jovenes.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/insights/por-que-renuncian-ejecutivos-jovenes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/insights/why-young-executives-resign.html"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/insights/edad-ejecutiva-experiencia-vs-juventud.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/insights/edad-ejecutiva-experiencia-vs-juventud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/insights/executive-age-experience-vs-youth.html"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/insights/libros-vs-ebooks-tecnologia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://topsearch.pe/insights/libros-vs-ebooks-tecnologia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://topsearch.pe/en/insights/books-vs-ebooks-technology.html"/>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ARTICLES EN -->
+  <url>
+    <loc>https://topsearch.pe/en/insights/executive-retention.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/insights/why-young-executives-resign.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/insights/executive-age-experience-vs-youth.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topsearch.pe/en/insights/books-vs-ebooks-technology.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
