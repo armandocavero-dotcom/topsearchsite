@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To Do List App – FREE Productivity App | Top Search Peru</title>
+<meta name="description" content="Download FREE Asuntos Pendientes, an executive productivity app based on Alan Lakein's A–E priority method. Available for Mac and Windows.">
+<link rel="canonical" href="https://topsearch.pe/en/insights/asuntos-pendientes.html">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; color: #333333; line-height: 1.6; background: #ffffff; }
+  header { border-bottom: 1px solid #e5e5e5; padding: 20px 40px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+  header .logo img { height: 60px; }
+  nav ul { list-style: none; display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+  nav ul li { position: relative; }
+  nav ul li > a { text-decoration: none; color: #1B3A5C; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+  nav ul li > a:hover { color: #2E75B6; }
+  nav ul li .submenu { display: none; position: absolute; top: 100%; left: 0; background: #ffffff; border: 1px solid #e5e5e5; box-shadow: 0 4px 10px rgba(0,0,0,0.08); min-width: 280px; padding: 10px 0; z-index: 100; }
+  nav ul li:hover .submenu { display: block; }
+  nav ul li .submenu a { display: block; padding: 10px 18px; color: #333; font-size: 13px; text-transform: none; letter-spacing: normal; font-weight: 500; text-decoration: none; }
+  nav ul li .submenu a:hover { background: #F2F2F2; color: #2E75B6; }
+  nav ul li .intersearch-badge img { height: 38px; }
+  .hero { background: linear-gradient(135deg, #1B3A5C 0%, #2E75B6 100%); color: #ffffff; padding: 80px 40px; text-align: center; }
+  .hero .breadcrumb { font-size: 13px; text-transform: uppercase; letter-spacing: 2px; opacity: 0.85; margin-bottom: 20px; }
+  .hero h1 { font-size: 48px; font-weight: 700; margin-bottom: 16px; line-height: 1.2; }
+  .hero .tagline { font-size: 20px; font-weight: 300; max-width: 720px; margin: 0 auto 28px; opacity: 0.95; }
+  .hero .free-badge { display: inline-block; background: #C45911; color: #ffffff; padding: 10px 24px; border-radius: 30px; font-weight: 700; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; }
+  main { max-width: 960px; margin: 0 auto; padding: 60px 40px; }
+  main h2 { font-size: 28px; color: #1B3A5C; margin-bottom: 18px; margin-top: 40px; font-weight: 700; }
+  main h2:first-child { margin-top: 0; }
+  main p { margin-bottom: 16px; font-size: 16px; }
+  main .intro p { font-size: 17px; }
+  .download-section { background: #F2F2F2; border-radius: 12px; padding: 40px; margin: 40px 0; text-align: center; }
+  .download-section h2 { margin-top: 0; }
+  .download-buttons { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+  .download-btn { display: inline-flex; align-items: center; gap: 12px; background: #1B3A5C; color: #ffffff; padding: 18px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; transition: background 0.2s; min-width: 240px; justify-content: center; }
+  .download-btn:hover { background: #2E75B6; }
+  .download-btn .icon { font-size: 24px; }
+  .download-note { margin-top: 20px; font-size: 14px; color: #666; font-style: italic; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 24px; }
+  .feature { border-left: 4px solid #C45911; padding: 14px 18px; background: #fafafa; }
+  .feature strong { color: #1B3A5C; display: block; margin-bottom: 4px; }
+  .feature span { font-size: 14px; color: #555; }
+  .priorities { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0; }
+  .priority { padding: 16px; border-radius: 8px; color: #ffffff; text-align: center; }
+  .priority strong { display: block; font-size: 22px; margin-bottom: 4px; }
+  .priority span { font-size: 13px; }
+  .priority.A { background: #C00000; }
+  .priority.B { background: #C45911; }
+  .priority.C { background: #BF8F00; }
+  .priority.D { background: #548235; }
+  .priority.E { background: #7F7F7F; }
+  .install-steps { background: #ffffff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 24px; margin: 20px 0; }
+  .install-steps h3 { color: #1B3A5C; margin-bottom: 12px; font-size: 18px; }
+  .install-steps ol { margin-left: 20px; line-height: 1.9; }
+  .install-steps ol li { margin-bottom: 6px; }
+  footer { background: #1B3A5C; color: #ffffff; padding: 50px 40px 30px; margin-top: 60px; }
+  footer .footer-content { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  footer h4 { font-size: 18px; margin-bottom: 12px; color: #ffffff; }
+  footer p, footer a { color: #cccccc; font-size: 14px; line-height: 1.8; text-decoration: none; }
+  footer a:hover { color: #ffffff; }
+  footer .footer-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 8px; }
+  footer .copyright { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #2E4F70; font-size: 13px; color: #aaa; }
+  @media (max-width: 768px) { .hero h1 { font-size: 32px; } .hero .tagline { font-size: 16px; } main h2 { font-size: 22px; } nav ul { gap: 14px; } footer .footer-content { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="https://topsearch.pe/en/index.html"><img src="https://topsearch.pe/images/logo-top-search.png" alt="Top Search Peru"></a></div>
+  <nav>
+    <ul>
+      <li><a href="https://topsearch.pe/en/index.html">Home</a></li>
+      <li><a href="https://topsearch.pe/en/about.html">About Us / Team</a></li>
+      <li><a href="#">Services</a>
+        <div class="submenu">
+          <a href="https://topsearch.pe/en/executive-search.html">Executive Search</a>
+          <a href="https://topsearch.pe/en/board-search.html">Board Search</a>
+          <a href="https://www.perumentors.com/en/">Executive Development ↗</a>
+        </div>
+      </li>
+      <li><a href="#">Insights</a>
+        <div class="submenu">
+          <a href="https://topsearch.pe/en/insights/executive-search.html">Executive Search &amp; Headhunting</a>
+          <a href="https://topsearch.pe/en/insights/executive-job-market.html">Executive Job Market</a>
+          <a href="https://topsearch.pe/en/insights/corporate-governance.html">Corporate Governance &amp; Board Search</a>
+          <a href="https://topsearch.pe/en/insights/technology-business.html">Technology &amp; Business</a>
+          <a href="https://topsearch.pe/en/insights/asuntos-pendientes.html">📥 To Do List App FREE</a>
+        </div>
+      </li>
+      <li><a href="https://topsearch.pe/en/contact.html">Contact</a></li>
+      <li><a href="https://topsearch.pe/insights/asuntos-pendientes.html">ESPAÑOL</a></li>
+      <li class="intersearch-badge"><a href="http://www.intersearch.org" target="_blank"><img src="https://topsearch.pe/images/intersearch-badge.png" alt="Member of InterSearch"></a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero">
+  <div class="breadcrumb">Insights · Executive Productivity</div>
+  <h1>To Do List App</h1>
+  <p class="tagline">An executive productivity app based on Alan Lakein's A–E priority method. Designed for professionals who need clarity, focus and control over what truly matters.</p>
+  <div class="free-badge">100% Free · No Registration</div>
+</section>
+<main>
+  <div class="intro">
+    <p><strong>Asuntos Pendientes</strong> (Spanish for "Pending Matters") is a lightweight, distraction-free desktop application that applies one of the most proven time-management methods: the A–E prioritization framework formulated by <em>Alan Lakein</em> in his classic book <em>How to Get Control of Your Time and Your Life</em>.</p>
+    <p>The idea is simple: not every pending task carries the same weight. Assigning each one a priority letter—from A (urgent and critical) to E (can wait or be eliminated)—organizes the day and frees the mind from unnecessary noise.</p>
+  </div>
+  <div class="download-section">
+    <h2>📥 Download Asuntos Pendientes</h2>
+    <p>Direct download from Google Drive. No payments, no registration, no advertising.</p>
+    <div class="download-buttons">
+      <a class="download-btn" href="https://drive.google.com/file/d/1amT-eLWmK918aLvXdEJ5-6r1DxHrXRy3/view?usp=sharing" target="_blank" rel="noopener"><span class="icon"></span><span>Download for Mac</span></a>
+      <a class="download-btn" href="https://drive.google.com/file/d/1kX-mBQb6syon17MfMGujrf0-ocH7kSh2/view?usp=sharing" target="_blank" rel="noopener"><span class="icon">⊞</span><span>Download for Windows</span></a>
+    </div>
+    <p class="download-note">Signed and notarized versions. Compatible with macOS and Windows 10/11.</p>
+  </div>
+  <h2>Alan Lakein's A–E method</h2>
+  <p>Each task is labeled with a letter that defines its priority. The app automatically organizes the list according to that criterion, keeping you focused on what matters.</p>
+  <div class="priorities">
+    <div class="priority A"><strong>A</strong><span>Urgent &amp; critical</span></div>
+    <div class="priority B"><strong>B</strong><span>Important</span></div>
+    <div class="priority C"><strong>C</strong><span>Convenient</span></div>
+    <div class="priority D"><strong>D</strong><span>Delegable</span></div>
+    <div class="priority E"><strong>E</strong><span>Eliminable / postponable</span></div>
+  </div>
+  <h2>Features</h2>
+  <div class="features">
+    <div class="feature"><strong>Automatic sorting</strong><span>Your tasks are organized A→E and then alphabetically, no dragging required.</span></div>
+    <div class="feature"><strong>Hover priority selector</strong><span>Hover over the letter and pick A, B, C, D, E or ✕ to clear.</span></div>
+    <div class="feature"><strong>Automatic date</strong><span>The app picks up the date from your system. No manual steps.</span></div>
+    <div class="feature"><strong>Simple completion</strong><span>Blue ✓ checkboxes to mark tasks as done.</span></div>
+    <div class="feature"><strong>Keyboard navigation</strong><span>Arrow keys to move between tasks, no mouse needed.</span></div>
+    <div class="feature"><strong>Minimalist design</strong><span>Helvetica typography, clean interface, zero distractions.</span></div>
+    <div class="feature"><strong>100% offline</strong><span>No connection required. Your tasks stay on your device.</span></div>
+    <div class="feature"><strong>Free, no registration</strong><span>Download, install, use. No accounts, no tracking.</span></div>
+  </div>
+  <h2>How to install</h2>
+  <div class="install-steps">
+    <h3>Mac</h3>
+    <ol>
+      <li>Click <strong>"Download for Mac"</strong>.</li>
+      <li>Google Drive will open a preview. Click the download icon (↓) at the top right.</li>
+      <li>Once downloaded, open the <code>.dmg</code> file and drag <em>Asuntos Pendientes</em> into the <em>Applications</em> folder.</li>
+      <li>The first time you open it, macOS will verify the signature and notarization (this may take a few seconds).</li>
+      <li>Done. Open Asuntos Pendientes from Launchpad or from the Applications folder.</li>
+    </ol>
+  </div>
+  <div class="install-steps">
+    <h3>Windows</h3>
+    <ol>
+      <li>Click <strong>"Download for Windows"</strong>.</li>
+      <li>Google Drive will open a preview. Click the download icon (↓) at the top right.</li>
+      <li>Once downloaded, run the installer.</li>
+      <li>If Windows shows a SmartScreen warning, click <em>"More info"</em> and then <em>"Run anyway"</em>.</li>
+      <li>Done. Open Asuntos Pendientes from the Start menu.</li>
+    </ol>
+  </div>
+  <h2>About the author of the method</h2>
+  <p><em>Alan Lakein</em> (1929–2009) was a pioneering American consultant in personal time management. His book <em>How to Get Control of Your Time and Your Life</em> (1973) sold millions of copies and popularized the A–B–C prioritization system, later extended to A–E. The question he left as his legacy—<em>"What is the best use of my time right now?"</em>—remains, for many executives, the hardest and most useful question of the day.</p>
+  <h2>A tool by Top Search Peru</h2>
+  <p>Asuntos Pendientes is an initiative of <a href="https://www.topsearch.pe" style="color: #2E75B6; font-weight: 600;">Top Search Peru</a>, members of InterSearch Worldwide. We share it freely as a contribution to the executive community in Peru, Latin America and beyond. If you find it useful, please share it with colleagues.</p>
+</main>
+<footer>
+  <div class="footer-content">
+    <div>
+      <h4>Top Search Peru</h4>
+      <p>Av. República de Colombia 671, Office 305<br>San Isidro, Lima 27, Peru<br><a href="mailto:info@topsearch.pe">info@topsearch.pe</a> &nbsp;|&nbsp; <a href="tel:+5114367000">+51-1-436-7000</a></p>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <div class="footer-links">
+        <a href="https://topsearch.pe/en/index.html">Home</a>
+        <a href="https://topsearch.pe/en/about.html">About Us</a>
+        <a href="https://topsearch.pe/en/executive-search.html">Services</a>
+        <a href="https://topsearch.pe/en/contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© 2026 Top Search Peru. All rights reserved. Members of InterSearch Worldwide.</div>
+</footer>
+</body>
+</html>
