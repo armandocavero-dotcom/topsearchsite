@@ -1,0 +1,37 @@
+# robots.txt — topsearch.pe
+# Actualizado: mayo 2026
+# GitHub Pages — bloquea rutas heredadas de WordPress
+
+User-agent: *
+
+# Rutas de WordPress (ya no existen en GitHub Pages)
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-admin/
+Disallow: /wp-json/
+Disallow: /wp-login.php
+Disallow: /wp-*.php
+Disallow: /en/wp-content/
+Disallow: /en/wp-admin/
+Disallow: /en/wp-json/
+
+# Taxonomías y archivos del WordPress antiguo
+Disallow: /tag/
+Disallow: /category/
+Disallow: /type/
+Disallow: /author/
+Disallow: /cpt_team/
+Disallow: /post-formats/
+
+# Páginas de WordPress antiguas sin equivalente en el sitio actual
+Disallow: /franchising/
+Disallow: /branding/
+Disallow: /leadership/
+Disallow: /search/
+
+# Feeds RSS
+Disallow: /feed/
+Disallow: /*/feed/
+
+# Sitemap
+Sitemap: https://topsearch.pe/sitemap.xml
