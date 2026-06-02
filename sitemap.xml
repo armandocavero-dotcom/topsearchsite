@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Páginas principales ES -->
   <url><loc>https://topsearch.pe/index.html</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
@@ -28,26 +27,26 @@
   <url><loc>https://topsearch.pe/en/insights/corporate-governance.html</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://topsearch.pe/en/insights/technology-business.html</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
 
-  <!-- Artículos ES (existentes) -->
+  <!-- Artículos ES -->
   <url><loc>https://topsearch.pe/insights/retencion-ejecutiva.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/insights/por-que-renuncian-ejecutivos-jovenes.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/insights/edad-ejecutiva-experiencia-vs-juventud.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/insights/libros-vs-ebooks-tecnologia.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/insights/temporalidades-mercado-laboral-ejecutivo.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/insights/eufemismo-del-talento.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/insights/paradoja-ejecutiva.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/insights/religion-de-la-informacion.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/insights/directorios-digitales.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
 
-  <!-- Artículos EN (existentes) -->
+  <!-- Artículos EN -->
   <url><loc>https://topsearch.pe/en/insights/executive-retention.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/en/insights/why-young-executives-resign.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/en/insights/executive-age-experience-vs-youth.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/en/insights/books-vs-ebooks-technology.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-
-  <!-- Artículos ES (NUEVOS) -->
-  <url><loc>https://topsearch.pe/insights/temporalidades-mercado-laboral-ejecutivo.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://topsearch.pe/insights/eufemismo-del-talento.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://topsearch.pe/insights/paradoja-ejecutiva.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-
-  <!-- Artículos EN (NUEVOS) -->
   <url><loc>https://topsearch.pe/en/insights/executive-labor-market-temporalities.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/en/insights/talent-euphemism.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://topsearch.pe/en/insights/executive-paradox.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/en/insights/religion-of-information.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://topsearch.pe/en/insights/digital-boards.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
 
 </urlset>
