@@ -192,7 +192,10 @@ section{position:relative}
 /* Contenido genérico (páginas nosotros / servicios) */
 .content-section{padding-block:clamp(3rem,7vw,5.5rem)}
 .content-section:nth-of-type(even){background:var(--navy-deep)}
-.content-section>div{max-width:900px;margin:0 auto;padding-inline:clamp(20px,5vw,64px)}
+.content-section>div{max-width:1080px;margin:0 auto;padding-inline:clamp(20px,5vw,64px)}
+.section{max-width:1080px;margin:0 auto;padding:clamp(3rem,7vw,5rem) clamp(20px,5vw,64px)}
+.section-text{max-width:760px;margin-bottom:2.4rem}
+.section-text p{color:var(--text);font-size:1.05rem;line-height:1.75;margin-bottom:1.15rem}
 .section-title{font-family:var(--serif);font-size:clamp(1.6rem,3.2vw,2.3rem);color:var(--ivory);margin:0 0 1.4rem;position:relative;padding-bottom:.9rem}
 .section-title::after{content:'';position:absolute;left:0;bottom:0;width:52px;height:2px;background:var(--gold)}
 .content-section p{color:var(--text);font-size:1.05rem;line-height:1.75;margin-bottom:1.15rem;max-width:70ch}
@@ -200,12 +203,16 @@ section{position:relative}
 .content-section a{color:var(--gold-light);border-bottom:1px solid var(--line)}
 .content-section a:hover{color:var(--gold)}
 
-/* Fichas de equipo (nosotros) */
+/* Fichas de equipo — unificado ES (.team-row) y EN (.bio-card) */
 .content-section h3{font-family:var(--serif);color:var(--ivory);font-size:1.4rem;margin:0 0 .2rem}
-.content-section h3 + p{color:var(--gold)!important;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;font-weight:600;margin-bottom:1rem}
-.team-row{display:grid;grid-template-columns:200px 1fr;gap:2rem;align-items:start;margin:2.4rem 0;border:1px solid var(--line-soft);background:var(--navy);padding:1.6rem;border-radius:6px}
-.team-row img{margin:0;border-radius:6px;width:100%}
-@media(max-width:640px){.team-row{grid-template-columns:1fr}}
+.team-row,.bio-card{display:grid;grid-template-columns:230px 1fr;gap:2.4rem;align-items:start;margin:0 0 1.6rem;border:1px solid var(--line-soft);background:var(--navy);padding:2rem;border-radius:8px;transition:.3s}
+.team-row:hover,.bio-card:hover{border-color:var(--line)}
+.team-row>img,.bio-photo{width:100%;border-radius:6px;display:block;margin:0}
+.team-row>div,.bio-card>div:last-child{min-width:0}
+.team-row h3,.bio-card h3{font-family:var(--serif);color:var(--ivory);font-size:1.45rem;margin:0 0 .2rem}
+.team-row p,.bio-card p{color:var(--text);font-size:1rem;line-height:1.7;margin-bottom:.8rem;max-width:none}
+.team-row h3 + p,.bio-card h3 + p{color:var(--gold)!important;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;font-weight:600;margin-bottom:1rem}
+@media(max-width:680px){.team-row,.bio-card{grid-template-columns:1fr;gap:1.4rem}}
 
 /* ===========================================================
    ARTÍCULOS (insights)
