@@ -294,6 +294,29 @@ footer.site .flinks{display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.82rem;colo
 footer.site .flinks a:hover{color:var(--gold-light)}
 .concept-note{font-size:.72rem;color:var(--slate-dim);letter-spacing:.06em;text-align:center;padding-top:1.5rem;margin-top:1.5rem;border-top:1px solid var(--line-soft)}
 
+/* ===========================================================
+   CUADRO DEL PROCESO (Búsqueda de Ejecutivos / Executive Search)
+   =========================================================== */
+.process-band{max-width:1180px;margin:0 auto;padding:1rem clamp(20px,5vw,64px) clamp(3rem,7vw,5rem)}
+.process-band .eyebrow{margin-bottom:.6rem}
+.proc-title{font-family:var(--serif);color:var(--ivory);font-size:clamp(1.5rem,3.5vw,2.2rem);margin:0}
+.proc-wrap{overflow-x:auto;margin-top:1.6rem;border:1px solid rgba(201,162,95,.55);border-radius:8px}
+table.proc{border-collapse:collapse;width:100%;min-width:820px;font-size:.8rem;table-layout:fixed}
+.proc th,.proc td{border:1px solid rgba(201,162,95,.42);padding:.7rem .55rem;text-align:center;vertical-align:middle}
+.proc col.k-lbl{width:120px}.proc col.k-sr{width:42px}.proc col.k-con{width:48px}
+.proc .corner{background:var(--navy-deep);color:var(--gold);font-family:var(--serif);font-weight:600;font-size:.9rem}
+.proc .wk{background:var(--navy-deep);color:var(--gold);font-family:var(--serif);font-size:1.15rem;font-weight:600}
+.proc .lbl{background:var(--navy-soft);color:var(--ivory);font-weight:700;font-size:.74rem;letter-spacing:.06em;text-transform:uppercase}
+.proc .c{background:var(--navy);color:var(--text);font-weight:500;line-height:1.3}
+.proc .c.empty{background:rgba(255,255,255,.015)}
+.proc .c.soft{color:var(--slate);font-style:italic;font-weight:400}
+.proc .sr,.proc .contrat{background:linear-gradient(160deg,var(--gold-light),var(--gold));color:var(--navy-deep);font-weight:800;letter-spacing:.08em}
+.proc .sr span,.proc .contrat span{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;display:inline-block}
+.proc .sr span{font-size:.68rem;text-transform:uppercase}
+.proc .contrat span{font-size:.82rem;text-transform:uppercase;letter-spacing:.14em}
+.proc-quote{margin:2.2rem 0 0;padding:1.3rem 1.7rem;border-left:3px solid var(--gold);background:rgba(201,162,95,.06);font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2.2vw,1.3rem);line-height:1.5;color:var(--ivory);max-width:860px}
+.proc-quote strong{color:var(--gold-light);font-style:normal;font-weight:600}
+
 /* reveal on scroll */
 body.js [data-rev]{opacity:0;transform:translateY(30px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
 body.js [data-rev].in{opacity:1;transform:none}
