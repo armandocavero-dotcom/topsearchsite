@@ -295,6 +295,17 @@ footer.site .flinks a:hover{color:var(--gold-light)}
 .concept-note{font-size:.72rem;color:var(--slate-dim);letter-spacing:.06em;text-align:center;padding-top:1.5rem;margin-top:1.5rem;border-top:1px solid var(--line-soft)}
 
 /* ===========================================================
+   INTRO DE SERVICIOS (compacto, a dos columnas)
+   =========================================================== */
+.svc-intro{max-width:1180px;margin:0 auto;padding:2.4rem clamp(20px,5vw,64px) .5rem}
+.svc-intro .eyebrow{margin-bottom:.8rem}
+.svc-intro h1{font-family:var(--serif);color:var(--ivory);font-size:clamp(2rem,4.5vw,3rem);margin:0 0 1.5rem;position:relative;padding-bottom:1rem}
+.svc-intro h1::after{content:'';position:absolute;left:0;bottom:0;width:56px;height:2px;background:var(--gold)}
+.svc-cols{columns:2;column-gap:3.2rem}
+.svc-cols p{color:var(--text);font-size:1.02rem;line-height:1.7;margin:0 0 1rem;break-inside:avoid}
+@media(max-width:760px){.svc-cols{columns:1}}
+
+/* ===========================================================
    CUADRO DEL PROCESO (Búsqueda de Ejecutivos / Executive Search)
    =========================================================== */
 .process-band{max-width:1180px;margin:0 auto;padding:1rem clamp(20px,5vw,64px) clamp(3rem,7vw,5rem)}
