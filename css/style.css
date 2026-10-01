@@ -358,9 +358,9 @@ body.js [data-rev].in{opacity:1;transform:none}
 }
 
 /* Acceso Clientes (portal.topsearch.pe) */
-.client-access{display:inline-flex;align-items:center;gap:.4rem;background:var(--gold);color:var(--navy-deep);border:1px solid var(--gold);padding:.42rem .8rem;font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;border-radius:4px;transition:.25s}
-.client-access:hover{background:transparent;color:var(--gold)}
-.client-access svg{flex:none}
+.client-access{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(180deg,#EED9A4 0%,#DDBE7C 100%);color:var(--navy-deep);border:1px solid #F2DFAE;padding:.55rem 1.05rem;font-size:.86rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;border-radius:5px;box-shadow:0 2px 10px rgba(228,204,144,.25),inset 0 1px 0 rgba(255,255,255,.35);transition:.25s}
+.client-access:hover{background:#F4E4BA;color:var(--navy-deep);border-color:#F4E4BA;box-shadow:0 4px 16px rgba(228,204,144,.4)}
+.client-access svg{flex:none;width:14px;height:14px;stroke-width:2.6}
 .nav-client{display:none}
-nav.main .nav-client a.nav{color:var(--gold)}
+nav.main .nav-client a.nav{color:var(--navy-deep);background:linear-gradient(180deg,#EED9A4,#DDBE7C);font-weight:700;margin-top:.3rem}
 @media(max-width:760px){.hdr-top-right .client-access{display:none}.nav-client{display:block}}
