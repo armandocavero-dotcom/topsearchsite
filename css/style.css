@@ -356,3 +356,11 @@ body.js [data-rev].in{opacity:1;transform:none}
   body.js [data-rev]{opacity:1!important;transform:none!important;transition:none}
   .hero .eyebrow,.hero h1 span,.hero-sub,.hero-cta,.hero-badges{opacity:1!important;animation:none!important}
 }
+
+/* Acceso Clientes (portal.topsearch.pe) */
+.client-access{display:inline-flex;align-items:center;gap:.4rem;background:var(--gold);color:var(--navy-deep);border:1px solid var(--gold);padding:.42rem .8rem;font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;border-radius:4px;transition:.25s}
+.client-access:hover{background:transparent;color:var(--gold)}
+.client-access svg{flex:none}
+.nav-client{display:none}
+nav.main .nav-client a.nav{color:var(--gold)}
+@media(max-width:760px){.hdr-top-right .client-access{display:none}.nav-client{display:block}}
