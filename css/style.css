@@ -31,7 +31,7 @@ header.site.scrolled{box-shadow:0 14px 40px rgba(0,0,0,.45)}
 .lang:hover{background:var(--gold);color:var(--navy-deep)}
 nav.main{border-top:1px solid var(--line-soft)}
 nav.main>ul{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.2rem .3rem;list-style:none;margin:0;padding:.5rem 0}
-nav.main a.nav{font-size:.86rem;letter-spacing:.02em;color:var(--ivory);opacity:.98;font-weight:600;padding:.5rem .85rem;border-radius:5px;white-space:nowrap;transition:.2s}
+nav.main a.nav{font-size:1.06rem;letter-spacing:.02em;color:var(--ivory);opacity:.98;font-weight:600;padding:.55rem 1rem;border-radius:5px;white-space:nowrap;transition:.2s}
 nav.main a.nav:hover{background:rgba(201,162,95,.18);color:var(--gold-light)}
 nav.main a.nav.active{color:var(--gold-light)}
 .drop{position:relative}
@@ -334,15 +334,16 @@ body.js [data-rev].in{opacity:1;transform:none}
 
 /* ---------- responsive ---------- */
 @media(max-width:900px){
+  :root{--hdr-h:150px}
   .split,.stat-row,.elite-grid{grid-template-columns:1fr}
   .diff-grid,.team-grid{grid-template-columns:1fr}
   .tstep{grid-template-columns:1fr;gap:.5rem;padding-left:1.6rem}
   .logo-chip img{height:24px}
-  nav.main a.nav{font-size:.8rem;padding:.45rem .6rem}
+  nav.main a.nav{font-size:.96rem;padding:.52rem .72rem}
 }
 @media(max-width:560px){
-  :root{--hdr-h:150px}
-  nav.main a.nav{font-size:.76rem;padding:.4rem .45rem}
+  :root{--hdr-h:170px}
+  nav.main a.nav{font-size:.92rem;padding:.5rem .62rem}
 }
 @media(max-width:760px){
   .hb-visual{width:100%;-webkit-mask-image:none;mask-image:none}
