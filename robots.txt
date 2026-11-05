@@ -1,5 +1,5 @@
 # robots.txt — topsearch.pe
-# Actualizado: mayo 2026
+# Actualizado: noviembre 2026
 # GitHub Pages — bloquea rutas heredadas de WordPress
 
 User-agent: *
@@ -15,19 +15,8 @@ Disallow: /en/wp-content/
 Disallow: /en/wp-admin/
 Disallow: /en/wp-json/
 
-# Taxonomías y archivos del WordPress antiguo
-Disallow: /tag/
-Disallow: /category/
-Disallow: /type/
-Disallow: /author/
-Disallow: /cpt_team/
-Disallow: /post-formats/
-
-# Páginas de WordPress antiguas sin equivalente en el sitio actual
-Disallow: /franchising/
-Disallow: /branding/
-Disallow: /leadership/
-Disallow: /search/
+# Las URLs antiguas de WordPress (tag/, category/, páginas viejas) NO se bloquean:
+# Google debe poder rastrearlas para ver su redirección o su 404 y sacarlas del índice.
 
 # Feeds RSS
 Disallow: /feed/
