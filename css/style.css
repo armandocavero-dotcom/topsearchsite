@@ -365,3 +365,20 @@ body.js [data-rev].in{opacity:1;transform:none}
 .nav-client{display:none}
 nav.main .nav-client a.nav{color:var(--navy-deep);background:linear-gradient(180deg,#EED9A4,#DDBE7C);font-weight:700;margin-top:.3rem}
 @media(max-width:760px){.hdr-top-right .client-access{display:none}.nav-client{display:block}}
+/* SEO nov 2026: enlaces en cabecera de categorías, secciones de servicio y FAQ */
+.cat-hero p a,.svc-more a{color:var(--gold-light);border-bottom:1px solid var(--line)}
+.cat-hero p a:hover,.svc-more a:hover{color:var(--gold)}
+.svc-more{max-width:1180px;margin:0 auto;padding:2.6rem clamp(20px,5vw,64px)}
+.svc-more h2{font-family:var(--serif);color:var(--ivory);font-size:clamp(1.5rem,3vw,2.1rem);margin:0 0 1.2rem;position:relative;padding-bottom:.8rem}
+.svc-more h2::after{content:'';position:absolute;left:0;bottom:0;width:52px;height:2px;background:var(--gold)}
+.svc-more p{color:var(--text);font-size:1.04rem;line-height:1.72;margin:0 0 1rem;max-width:78ch}
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.4rem 2.2rem;margin-top:1.4rem}
+.svc-grid h3{font-family:var(--serif);color:var(--ivory);font-size:1.25rem;margin:0 0 .45rem}
+.svc-grid p{font-size:1rem;margin:0}
+.faq details{border-top:1px solid var(--line-soft);padding:1rem 0}
+.faq details:last-child{border-bottom:1px solid var(--line-soft)}
+.faq summary{cursor:pointer;color:var(--ivory);font-family:var(--serif);font-size:1.18rem;list-style:none;position:relative;padding-right:2rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';position:absolute;right:0;top:0;color:var(--gold);font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'–'}
+.faq details p{margin:.8rem 0 0}
