@@ -59,20 +59,16 @@ nav.main a.nav.active{color:var(--gold-light)}
 /* ===========================================================
    INTRO — cortina de entrada (solo home)
    =========================================================== */
-#intro{position:fixed;inset:0;z-index:2000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.8rem;padding:2rem;text-align:center;background:radial-gradient(72% 70% at 50% 40%,var(--navy-soft),var(--navy-deep) 74%)}
+#intro{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;justify-content:center;background:radial-gradient(72% 70% at 50% 40%,var(--navy-soft),var(--navy-deep) 74%)}
 #intro.lift{opacity:0;visibility:hidden;transition:opacity 1.3s ease,visibility 1.3s ease}
-#intro .i-chip{background:#fff;border-radius:10px;box-shadow:0 22px 64px rgba(0,0,0,.45)}
-#intro .i-chip.ts{padding:18px 28px}
-#intro .i-chip.ts img{height:clamp(48px,8vw,68px);display:block}
-#intro .i-chip.is{padding:14px 22px}
-#intro .i-chip.is img{height:clamp(42px,6.5vw,56px);display:block}
-#intro .i-ts{animation:introZoom 2.3s cubic-bezier(.19,1,.22,1) .3s both}
-#intro .i-rule{width:60px;height:2px;background:var(--gold);opacity:0;animation:introFade 1s ease 2.2s both}
-#intro .i-phrase{max-width:660px;font-family:var(--serif);font-style:italic;font-size:clamp(1.15rem,3.1vw,1.75rem);line-height:1.45;color:var(--ivory);opacity:0;animation:introFade 1.3s ease 2.8s both}
-#intro .i-phrase b{color:var(--gold);font-style:normal;font-weight:600}
-#intro .i-is{opacity:0;animation:introFade 1.5s ease 4.4s both}
-@keyframes introZoom{0%{opacity:0;transform:scale(.28);filter:blur(9px)}60%{filter:blur(0)}100%{opacity:1;transform:scale(1);filter:blur(0)}}
-@keyframes introFade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+#intro video{width:100%;height:100%;object-fit:contain;display:block;background:transparent}
+#intro .i-ctrl{position:absolute;right:clamp(14px,3vw,36px);bottom:calc(clamp(14px,3vw,32px) + env(safe-area-inset-bottom));display:flex;gap:.7rem;flex-wrap:wrap;justify-content:flex-end}
+#intro .i-btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--sans);font-size:1rem;font-weight:600;letter-spacing:.02em;color:#fff;background:rgba(6,15,34,.78);border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:.7rem 1.25rem;cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:background .2s,border-color .2s}
+#intro .i-btn:hover,#intro .i-btn:focus-visible{background:rgba(6,15,34,.95);border-color:var(--gold-light);outline:none}
+#intro .i-btn.muted{color:var(--navy-deep);background:linear-gradient(180deg,#EED9A4 0%,#DDBE7C 100%);border-color:#F2DFAE}
+#intro .i-btn:not(.muted) .w1,#intro .i-btn:not(.muted) .w2{opacity:1}
+#intro .i-btn.muted .w2{opacity:.35}
+@media(max-width:600px){#intro .i-ctrl{left:14px;right:14px;justify-content:center}#intro .i-btn{font-size:1.05rem;padding:.8rem 1.3rem}}
 
 /* ===========================================================
    HOME — Hero (portada B)
